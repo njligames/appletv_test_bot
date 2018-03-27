@@ -9,30 +9,30 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>NJLIC-exe.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>NJLIC-static.xcscheme</key>
+		<key>NJLIC-exe.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>NJLIC.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>ZERO_CHECK.xcscheme</key>
+		<key>NJLIC-static.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>install.xcscheme</key>
+		<key>NJLIC.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>ZERO_CHECK.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>5</integer>
+		</dict>
+		<key>install.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 		<key>uninstall.xcscheme</key>
 		<dict>
