@@ -1,0 +1,1465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0923CCDA5D534F208D55349F /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 780D966DD1E34F548846A58F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				0884A3EC06AA43ECBB33645B /* CMake Rules */,
+			);
+			dependencies = (
+				5F58FAD55639405093514DF7 /* PBXTargetDependency */,
+				D1703CFF369E472B86023E02 /* PBXTargetDependency */,
+				15221A0FA6334280926C448A /* PBXTargetDependency */,
+				3918170FD8C84C5ABA8A4480 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		5D5D19CDB119403A87B314F2 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 09E21A29F3AA411FB7962B2B /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				F3760514EBBD48F0A89864BE /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				434A0F4614FB41528283FD8B /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		98692E99B334466BB45EC884 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B00A7D990CC24C2FB13DAFCE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				664A0E197D1740C8AF6A603C /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		C614A0723F9549F489BA8E91 /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E052C37B22734E2CA71B937E /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				B39B096E5F6049259EF9F10D /* CMake Rules */,
+			);
+			dependencies = (
+				6C7308D4A7264240BC108375 /* PBXTargetDependency */,
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0C02E58A321D47189226B77A /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/CMakeFiles/NJLIC-exe.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 559EA9D57CD246878A9A8CD7 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/CMakeFiles/NJLIC-exe.dir/Info.plist */; };
+		254B9728AAA44640A24A96B9 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/SDL_test_common.c */ = {isa = PBXBuildFile; fileRef = 3C3E3F887C8F401C8AEBF129 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/SDL_test_common.c */; };
+		2753C9AFF24B4C08A2B67E2E /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/cmake.in/platform.in/appletv/Assets.xcassets */ = {isa = PBXBuildFile; fileRef = B0834AC10E11447291A597F3 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/cmake.in/platform.in/appletv/Assets.xcassets */; };
+		3200A7F45D164698AED96783 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/SDL_test_common.c */ = {isa = PBXBuildFile; fileRef = 0739F9EB7B5D44BEBA0A200F /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/SDL_test_common.c */; };
+		5A4D5A7BC1964B559A1D31DF /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/SDL_test_common.c */ = {isa = PBXBuildFile; fileRef = A3B153CD80D848C5A53CB5F8 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/SDL_test_common.c */; };
+		64F29766A16C4B8CAAB1CCF1 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9F3BDE7563DD4140B3F3A7DA /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */; };
+		80D8D6D0F16144A4A5326FBF /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 6424E8D5E11B488BA1154FA7 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/main.cpp */; };
+		965F148B5B1C4FE088B7869E /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3A2EA87040234BB3ADB9E675 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */; };
+		98229A6CAE7549DBBA637D9A /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 14F859EA5BDA4CBEA8C38AE3 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/main.cpp */; };
+		9FFF472A5E414041B542DDC4 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/cmake.in/platform.in/appletv/Assets.xcassets */ = {isa = PBXBuildFile; fileRef = 8DA18A34229F4F0A81A1A380 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/cmake.in/platform.in/appletv/Assets.xcassets */; };
+		A9C883373F49497883951056 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/cmake.in/platform.in/appletv/Assets.xcassets */ = {isa = PBXBuildFile; fileRef = FC6DD12120B946EC820A2642 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/cmake.in/platform.in/appletv/Assets.xcassets */; };
+		CA0A7B5D72D04F80BD7F1629 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0A282A6967BB46CF9C30BD80 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */; };
+		ED00CEDCC2494602BFFD653C /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 318E29D082EB4DC194BC8DD8 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		457826356909443BB5C0B0B5 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		B52F471B600C46FA90D40B4D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		BD76CE6CF4EC43F38E568BB9 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		ED75D3631C9147CEA01DEE3F /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		025301FF6BC849B8884E2493 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E4985A724C441B9D5C5FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0923CCDA5D534F208D55349F;
+			remoteInfo = ALL_BUILD;
+		};
+		48907C1CC79C43EC90E8E4B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E4985A724C441B9D5C5FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA77142A2B8C48849498196F;
+			remoteInfo = NJLIC;
+		};
+		5CF58E8F2E1B439AA3084147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E4985A724C441B9D5C5FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98692E99B334466BB45EC884;
+			remoteInfo = ZERO_CHECK;
+		};
+		7671FF6B0BEE4204AA6D82D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E4985A724C441B9D5C5FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE4AB98084BD433199A987DC;
+			remoteInfo = "NJLIC-static";
+		};
+		8C5426AD2F6F41599D90A5EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E4985A724C441B9D5C5FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98692E99B334466BB45EC884;
+			remoteInfo = ZERO_CHECK;
+		};
+		91046217CA5D4A8C95B1FD17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E4985A724C441B9D5C5FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98692E99B334466BB45EC884;
+			remoteInfo = ZERO_CHECK;
+		};
+		AB0D777F1AED4CF5BF594D13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E4985A724C441B9D5C5FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98692E99B334466BB45EC884;
+			remoteInfo = ZERO_CHECK;
+		};
+		E615AB88BCCE40B9824B6EA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E4985A724C441B9D5C5FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98692E99B334466BB45EC884;
+			remoteInfo = ZERO_CHECK;
+		};
+		FE936045462B4197ABA90325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E4985A724C441B9D5C5FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525EA42D861843BAAE330005;
+			remoteInfo = "NJLIC-exe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05EF3A21934143FA8B921CF6 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0739F9EB7B5D44BEBA0A200F /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/SDL_test_common.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_test_common.c; path = _build_appletv/test_engine_repo/src/SDL_test_common.c; sourceTree = SOURCE_ROOT; };
+		0A282A6967BB46CF9C30BD80 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		14F859EA5BDA4CBEA8C38AE3 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = _build_appletv/test_engine_repo/src/main.cpp; sourceTree = SOURCE_ROOT; };
+		318E29D082EB4DC194BC8DD8 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = _build_appletv/test_engine_repo/src/main.cpp; sourceTree = SOURCE_ROOT; };
+		3A2EA87040234BB3ADB9E675 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3C3E3F887C8F401C8AEBF129 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/SDL_test_common.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_test_common.c; path = _build_appletv/test_engine_repo/src/SDL_test_common.c; sourceTree = SOURCE_ROOT; };
+		3D643307BE504D018FBB8336 /* NJLIC-exe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "NJLIC-exe"; sourceTree = BUILT_PRODUCTS_DIR; };
+		559EA9D57CD246878A9A8CD7 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/CMakeFiles/NJLIC-exe.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "_build_appletv/CMakeFiles/NJLIC-exe.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		6424E8D5E11B488BA1154FA7 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = _build_appletv/test_engine_repo/src/main.cpp; sourceTree = SOURCE_ROOT; };
+		8DA18A34229F4F0A81A1A380 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/cmake.in/platform.in/appletv/Assets.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = _build_appletv/cmake.in/platform.in/appletv/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		901197AFADCF4DC98CC4C352 /* NJLIC-static */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libNJLICd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F3BDE7563DD4140B3F3A7DA /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A3B153CD80D848C5A53CB5F8 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/SDL_test_common.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_test_common.c; path = _build_appletv/test_engine_repo/src/SDL_test_common.c; sourceTree = SOURCE_ROOT; };
+		A5C2907AC8DB4C10B95D9097 /* NJLIC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libNJLICd.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7919DC7D4A2425DA95A16F1 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B0834AC10E11447291A597F3 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/cmake.in/platform.in/appletv/Assets.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = _build_appletv/cmake.in/platform.in/appletv/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		BE31C74C0BC94B72BA7B8ACB /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FC6DD12120B946EC820A2642 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/cmake.in/platform.in/appletv/Assets.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = _build_appletv/cmake.in/platform.in/appletv/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		01A2B55816CE416D8204A068 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				1AD6923953D44380A4D769C7 /* CMake Rules */,
+				A7919DC7D4A2425DA95A16F1 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		06D7A8F19D1342F985AFA098 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0739F9EB7B5D44BEBA0A200F /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/SDL_test_common.c */,
+				318E29D082EB4DC194BC8DD8 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		1AD6923953D44380A4D769C7 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		2DD7556169BB4C549193B9AD /* NJLIC */ = {
+			isa = PBXGroup;
+			children = (
+				06D7A8F19D1342F985AFA098 /* Source Files */,
+				3A2EA87040234BB3ADB9E675 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */,
+				FC6DD12120B946EC820A2642 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/cmake.in/platform.in/appletv/Assets.xcassets */,
+			);
+			name = NJLIC;
+			sourceTree = "<group>";
+		};
+		3D01E4BCEF4241169A74D5AF /* NJLIC-static */ = {
+			isa = PBXGroup;
+			children = (
+				55954184845648E188B6132D /* Source Files */,
+				9F3BDE7563DD4140B3F3A7DA /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */,
+				8DA18A34229F4F0A81A1A380 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/cmake.in/platform.in/appletv/Assets.xcassets */,
+			);
+			name = "NJLIC-static";
+			sourceTree = "<group>";
+		};
+		55954184845648E188B6132D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3B153CD80D848C5A53CB5F8 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/SDL_test_common.c */,
+				6424E8D5E11B488BA1154FA7 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		646AD3353C9048FAAD9DAC87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5C2907AC8DB4C10B95D9097 /* NJLIC */,
+				3D643307BE504D018FBB8336 /* NJLIC-exe */,
+				901197AFADCF4DC98CC4C352 /* NJLIC-static */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		685805DDCF8448CDA58C0664 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				8C2DAB8D99BC44BA96C30D3B /* CMake Rules */,
+				05EF3A21934143FA8B921CF6 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		72A3A11A20864807A55CEFFA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				559EA9D57CD246878A9A8CD7 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/CMakeFiles/NJLIC-exe.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		766F83F392F44FBFAB158622 /* NJLIC-exe */ = {
+			isa = PBXGroup;
+			children = (
+				875F2C7F55414C7FAF882D71 /* Source Files */,
+				72A3A11A20864807A55CEFFA /* Resources */,
+				0A282A6967BB46CF9C30BD80 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */,
+				B0834AC10E11447291A597F3 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/cmake.in/platform.in/appletv/Assets.xcassets */,
+			);
+			name = "NJLIC-exe";
+			sourceTree = "<group>";
+		};
+		875F2C7F55414C7FAF882D71 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C3E3F887C8F401C8AEBF129 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/SDL_test_common.c */,
+				14F859EA5BDA4CBEA8C38AE3 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8C2DAB8D99BC44BA96C30D3B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		99EA0DD587304CA3887B371E = {
+			isa = PBXGroup;
+			children = (
+				3D01E4BCEF4241169A74D5AF /* NJLIC-static */,
+				A35DE5CD40DC41D1A46DCA04 /* uninstall */,
+				2DD7556169BB4C549193B9AD /* NJLIC */,
+				766F83F392F44FBFAB158622 /* NJLIC-exe */,
+				685805DDCF8448CDA58C0664 /* ALL_BUILD */,
+				01A2B55816CE416D8204A068 /* ZERO_CHECK */,
+				646AD3353C9048FAAD9DAC87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A35DE5CD40DC41D1A46DCA04 /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				E944D4B8BABE4E6B929A55F8 /* CMake Rules */,
+				BE31C74C0BC94B72BA7B8ACB /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		E944D4B8BABE4E6B929A55F8 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		525EA42D861843BAAE330005 /* NJLIC-exe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED0B0DA7C03D49898A5DF513 /* Build configuration list for PBXNativeTarget "NJLIC-exe" */;
+			buildPhases = (
+				821B6795EC4C4FCA9AF0AB03 /* Resources */,
+				50D34D5215724BA18A445D39 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				836E86F6CABB4720B9A370C6 /* PBXTargetDependency */,
+			);
+			name = "NJLIC-exe";
+			productName = "NJLIC-exe";
+			productReference = 3D643307BE504D018FBB8336 /* NJLIC-exe */;
+			productType = "com.apple.product-type.application";
+		};
+		CA77142A2B8C48849498196F /* NJLIC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A0A4D9102FA4850A588C870 /* Build configuration list for PBXNativeTarget "NJLIC" */;
+			buildPhases = (
+				2843E58AD8ED4FA0A01FAC97 /* Sources */,
+				DB84CC0F85044C46915E5E82 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB3C7964666C417EB102980D /* PBXTargetDependency */,
+			);
+			name = NJLIC;
+			productName = NJLIC;
+			productReference = A5C2907AC8DB4C10B95D9097 /* NJLIC */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		FE4AB98084BD433199A987DC /* NJLIC-static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C38E25A30694E8FBF3D4CF0 /* Build configuration list for PBXNativeTarget "NJLIC-static" */;
+			buildPhases = (
+				CA5ABCEE0DBE4B72BB9F639D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2069681A8E084CC2ADAF434D /* PBXTargetDependency */,
+			);
+			name = "NJLIC-static";
+			productName = "NJLIC-static";
+			productReference = 901197AFADCF4DC98CC4C352 /* NJLIC-static */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28E4985A724C441B9D5C5FDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 9D12C874D7174E16B5A22B27 /* Build configuration list for PBXProject "NJLIC" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				457826356909443BB5C0B0B5 /* Debug */,
+				B52F471B600C46FA90D40B4D /* Release */,
+				BD76CE6CF4EC43F38E568BB9 /* MinSizeRel */,
+				ED75D3631C9147CEA01DEE3F /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 99EA0DD587304CA3887B371E;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				0923CCDA5D534F208D55349F /* ALL_BUILD */,
+				CA77142A2B8C48849498196F /* NJLIC */,
+				525EA42D861843BAAE330005 /* NJLIC-exe */,
+				FE4AB98084BD433199A987DC /* NJLIC-static */,
+				98692E99B334466BB45EC884 /* ZERO_CHECK */,
+				5D5D19CDB119403A87B314F2 /* install */,
+				C614A0723F9549F489BA8E91 /* uninstall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0884A3EC06AA43ECBB33645B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv -f /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		2951E650BC6B4AC1A4DD682E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		664A0E197D1740C8AF6A603C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv -f /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		874D03528CA14A16B26277FC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B39B096E5F6049259EF9F10D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv -f /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/CMakeScripts/uninstall_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		CB41B5C3EF2043F98FBCFB31 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		DB84CC0F85044C46915E5E82 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv -f /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/CMakeScripts/NJLIC_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		DDB9C2546CEC403F978240A5 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F3760514EBBD48F0A89864BE /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv -f /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		821B6795EC4C4FCA9AF0AB03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2753C9AFF24B4C08A2B67E2E /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/cmake.in/platform.in/appletv/Assets.xcassets */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2843E58AD8ED4FA0A01FAC97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3200A7F45D164698AED96783 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/SDL_test_common.c */,
+				ED00CEDCC2494602BFFD653C /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D34D5215724BA18A445D39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254B9728AAA44640A24A96B9 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/SDL_test_common.c */,
+				98229A6CAE7549DBBA637D9A /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5ABCEE0DBE4B72BB9F639D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4D5A7BC1964B559A1D31DF /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/SDL_test_common.c */,
+				80D8D6D0F16144A4A5326FBF /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15221A0FA6334280926C448A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA77142A2B8C48849498196F /* NJLIC */;
+			targetProxy = 48907C1CC79C43EC90E8E4B1 /* PBXContainerItemProxy */;
+		};
+		2069681A8E084CC2ADAF434D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98692E99B334466BB45EC884 /* ZERO_CHECK */;
+			targetProxy = 91046217CA5D4A8C95B1FD17 /* PBXContainerItemProxy */;
+		};
+		3918170FD8C84C5ABA8A4480 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525EA42D861843BAAE330005 /* NJLIC-exe */;
+			targetProxy = FE936045462B4197ABA90325 /* PBXContainerItemProxy */;
+		};
+		434A0F4614FB41528283FD8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0923CCDA5D534F208D55349F /* ALL_BUILD */;
+			targetProxy = 025301FF6BC849B8884E2493 /* PBXContainerItemProxy */;
+		};
+		5F58FAD55639405093514DF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98692E99B334466BB45EC884 /* ZERO_CHECK */;
+			targetProxy = 5CF58E8F2E1B439AA3084147 /* PBXContainerItemProxy */;
+		};
+		6C7308D4A7264240BC108375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98692E99B334466BB45EC884 /* ZERO_CHECK */;
+			targetProxy = AB0D777F1AED4CF5BF594D13 /* PBXContainerItemProxy */;
+		};
+		836E86F6CABB4720B9A370C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98692E99B334466BB45EC884 /* ZERO_CHECK */;
+			targetProxy = E615AB88BCCE40B9824B6EA8 /* PBXContainerItemProxy */;
+		};
+		D1703CFF369E472B86023E02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE4AB98084BD433199A987DC /* NJLIC-static */;
+			targetProxy = 7671FF6B0BEE4204AA6D82D9 /* PBXContainerItemProxy */;
+		};
+		DB3C7964666C417EB102980D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98692E99B334466BB45EC884 /* ZERO_CHECK */;
+			targetProxy = 8C5426AD2F6F41599D90A5EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		001AE15DADA847A5BDA0B94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/build;
+			};
+			name = Release;
+		};
+		12E26EA90446433682E855AE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NJLIC_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall      -DNDEBUG -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  -lm -liconv -framework OpenGLES -framework UIKit -framework Foundation -framework AVFoundation -framework GameController -framework CoreGraphics -framework QuartzCore -framework CoreVideo -framework CoreAudio -framework AudioToolbox /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/lib/tvos/Release$(EFFECTIVE_PLATFORM_NAME)/libSDL2.a -Wl,-undefined,error";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NJLIC;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		198EC5706F434D37970BDBC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/build;
+			};
+			name = Debug;
+		};
+		2C0DB09E3CAB45FCA2CE2C8B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NJLIC_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall         -DNDEBUG -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  -lm -liconv -framework OpenGLES -framework UIKit -framework Foundation -framework AVFoundation -framework GameController -framework CoreGraphics -framework QuartzCore -framework CoreVideo -framework CoreAudio -framework AudioToolbox /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/lib/tvos/Release$(EFFECTIVE_PLATFORM_NAME)/libSDL2.a -Wl,-undefined,error";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NJLIC;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2C2400D1911F4ADD941D06DF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = SRBQ5SCF5X;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INFOPLIST_FILE = "/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/CMakeFiles/NJLIC-exe.dir/Info.plist";
+				INSTALL_PATH = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/ProductRelease;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall      -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lm -liconv -framework OpenGLES -framework UIKit -framework Foundation -framework AVFoundation -framework GameController -framework CoreGraphics -framework QuartzCore -framework CoreVideo -framework CoreAudio -framework AudioToolbox /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/lib/tvos/Release$(EFFECTIVE_PLATFORM_NAME)/libSDL2.a -Wl,-undefined,error";
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.njlicgames.engine.appletv.source;
+				PRODUCT_NAME = NJLICGameEngine;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				TARGETED_DEVICE_FAMILY = 3;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2C87086241B14AFB9CFC1385 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		339874FA35D0402090ADA638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3BA8A8B6164A43E8B9B05FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = SRBQ5SCF5X;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INFOPLIST_FILE = "/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/CMakeFiles/NJLIC-exe.dir/Info.plist";
+				INSTALL_PATH = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/ProductRelease;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall      ";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lm -liconv -framework OpenGLES -framework UIKit -framework Foundation -framework AVFoundation -framework GameController -framework CoreGraphics -framework QuartzCore -framework CoreVideo -framework CoreAudio -framework AudioToolbox /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/lib/tvos/Release$(EFFECTIVE_PLATFORM_NAME)/libSDL2.a -Wl,-undefined,error";
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.njlicgames.engine.appletv.source;
+				PRODUCT_NAME = NJLICGameEngine;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				TARGETED_DEVICE_FAMILY = 3;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		42766EC402914EFBA562975F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall      ";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NJLICd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4C5CA3D0660E457CA0690BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		503A0BAA35194185BBDC1ABF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall      -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NJLIC;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		55C85657E1E04438B693014F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = SRBQ5SCF5X;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INFOPLIST_FILE = "/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/CMakeFiles/NJLIC-exe.dir/Info.plist";
+				INSTALL_PATH = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/ProductRelease;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall         -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lm -liconv -framework OpenGLES -framework UIKit -framework Foundation -framework AVFoundation -framework GameController -framework CoreGraphics -framework QuartzCore -framework CoreVideo -framework CoreAudio -framework AudioToolbox /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/lib/tvos/Release$(EFFECTIVE_PLATFORM_NAME)/libSDL2.a -Wl,-undefined,error";
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.njlicgames.engine.appletv.source;
+				PRODUCT_NAME = NJLICGameEngine;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				TARGETED_DEVICE_FAMILY = 3;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		650C45ED6DC7423DBD19B4CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NJLIC_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall      -DNDEBUG -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  -lm -liconv -framework OpenGLES -framework UIKit -framework Foundation -framework AVFoundation -framework GameController -framework CoreGraphics -framework QuartzCore -framework CoreVideo -framework CoreAudio -framework AudioToolbox /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/lib/tvos/Release$(EFFECTIVE_PLATFORM_NAME)/libSDL2.a -Wl,-undefined,error";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NJLIC;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		75C5FC8F4D674DF7ABBAB4AC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7B7F05E1D36F4E108188E90E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		8D2A380D1A7D46C98C8936A9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/build;
+			};
+			name = MinSizeRel;
+		};
+		91B94C66FFB6431A9910C02D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9245AF14FAFB4B70B022F4F8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/build;
+			};
+			name = RelWithDebInfo;
+		};
+		976DED07BA5849D094CF5A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A0ABDD523F5F4146AB571065 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall         -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NJLIC;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		ADD5A2CA74924485B8E6A633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall      -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NJLIC;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		AEAB495C963D42D8829118FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = SRBQ5SCF5X;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INFOPLIST_FILE = "/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/CMakeFiles/NJLIC-exe.dir/Info.plist";
+				INSTALL_PATH = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/ProductRelease;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall      -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lm -liconv -framework OpenGLES -framework UIKit -framework Foundation -framework AVFoundation -framework GameController -framework CoreGraphics -framework QuartzCore -framework CoreVideo -framework CoreAudio -framework AudioToolbox /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/lib/tvos/Release$(EFFECTIVE_PLATFORM_NAME)/libSDL2.a -Wl,-undefined,error";
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.njlicgames.engine.appletv.source;
+				PRODUCT_NAME = NJLICGameEngine;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				TARGETED_DEVICE_FAMILY = 3;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B94B90D929D047ABA66FD4B3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BF68DA87538D44DA964E3E44 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CBAFE17A2E0F45CCB46316B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D586941828BB4EB0A0E84670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		DF8F6B2069C8477496961FA9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E0590A9A175D40578854815B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		ED4B63659C4F4BA0AA19E604 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EE6E79EF47A545C382091542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F0A69CD4BFF141E5AEF9AA94 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F6E8C6F20AC2472E8B8D0288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NJLIC_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall     -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  -lm -liconv -framework OpenGLES -framework UIKit -framework Foundation -framework AVFoundation -framework GameController -framework CoreGraphics -framework QuartzCore -framework CoreVideo -framework CoreAudio -framework AudioToolbox /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/thirdparty/SDL2-2.0.7/lib/tvos/Release$(EFFECTIVE_PLATFORM_NAME)/libSDL2.a -Wl,-undefined,error";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NJLICd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09E21A29F3AA411FB7962B2B /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5CA3D0660E457CA0690BDC /* Debug */,
+				EE6E79EF47A545C382091542 /* Release */,
+				2C87086241B14AFB9CFC1385 /* MinSizeRel */,
+				F0A69CD4BFF141E5AEF9AA94 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5A0A4D9102FA4850A588C870 /* Build configuration list for PBXNativeTarget "NJLIC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E8C6F20AC2472E8B8D0288 /* Debug */,
+				650C45ED6DC7423DBD19B4CD /* Release */,
+				12E26EA90446433682E855AE /* MinSizeRel */,
+				2C0DB09E3CAB45FCA2CE2C8B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5C38E25A30694E8FBF3D4CF0 /* Build configuration list for PBXNativeTarget "NJLIC-static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42766EC402914EFBA562975F /* Debug */,
+				ADD5A2CA74924485B8E6A633 /* Release */,
+				503A0BAA35194185BBDC1ABF /* MinSizeRel */,
+				A0ABDD523F5F4146AB571065 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		780D966DD1E34F548846A58F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D586941828BB4EB0A0E84670 /* Debug */,
+				976DED07BA5849D094CF5A8C /* Release */,
+				DF8F6B2069C8477496961FA9 /* MinSizeRel */,
+				ED4B63659C4F4BA0AA19E604 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9D12C874D7174E16B5A22B27 /* Build configuration list for PBXProject "NJLIC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198EC5706F434D37970BDBC1 /* Debug */,
+				001AE15DADA847A5BDA0B94F /* Release */,
+				8D2A380D1A7D46C98C8936A9 /* MinSizeRel */,
+				9245AF14FAFB4B70B022F4F8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B00A7D990CC24C2FB13DAFCE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0590A9A175D40578854815B /* Debug */,
+				CBAFE17A2E0F45CCB46316B7 /* Release */,
+				75C5FC8F4D674DF7ABBAB4AC /* MinSizeRel */,
+				91B94C66FFB6431A9910C02D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E052C37B22734E2CA71B937E /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B7F05E1D36F4E108188E90E /* Debug */,
+				339874FA35D0402090ADA638 /* Release */,
+				BF68DA87538D44DA964E3E44 /* MinSizeRel */,
+				B94B90D929D047ABA66FD4B3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ED0B0DA7C03D49898A5DF513 /* Build configuration list for PBXNativeTarget "NJLIC-exe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA8A8B6164A43E8B9B05FAF /* Debug */,
+				AEAB495C963D42D8829118FA /* Release */,
+				2C2400D1911F4ADD941D06DF /* MinSizeRel */,
+				55C85657E1E04438B693014F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28E4985A724C441B9D5C5FDA /* Project object */;
+}

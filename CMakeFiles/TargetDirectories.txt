@@ -1,0 +1,7 @@
+/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/CMakeFiles/NJLIC-static.dir
+/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/CMakeFiles/install.dir
+/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/CMakeFiles/uninstall.dir
+/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/CMakeFiles/NJLIC.dir
+/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/CMakeFiles/NJLIC-exe.dir
+/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/CMakeFiles/ALL_BUILD.dir
+/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_appletv/CMakeFiles/ZERO_CHECK.dir
